@@ -1,0 +1,25 @@
+<br/>
+<h5>Existing Cards</h5>
+
+<div class="card-list">
+    <div class="card-body">
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Card Number</th>
+            <th scope="col">Limit</th>
+            <th scope="col">Balance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let card of creditCards">
+            <td>{{ card.name }}</td>
+            <td>{{ card.cardNumber }}</td>
+            <td>£ {{ card.limits }}</td>
+            <td>£ {{ card.balance }} </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>

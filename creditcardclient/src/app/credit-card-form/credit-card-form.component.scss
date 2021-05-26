@@ -1,0 +1,35 @@
+.form-group {
+    input {
+        width: 30%;
+        margin-left: 3%;
+    }
+    label {
+        margin-left: 3%;
+    }
+}
+
+h3, h5, button {
+    margin-left: 3%;
+}
+
+button {
+    width: 10%;
+}
+
+@media screen and (max-width: 768px) {
+    button {
+      width: 10%;
+    }
+    input {
+        width: 20%
+    }
+}
+
+@media screen and (min-width: 768px) {
+    button {
+      width: 10%;
+    }
+    input {
+        width: 15%;
+    }
+}
